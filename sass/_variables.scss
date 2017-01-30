@@ -1,0 +1,18 @@
+/* Imported _variables.scss */
+$primaryColour: #0000ff;
+$primaryLight: #dfdfff;
+$primaryDark: #0000bf;
+$accentColour: #ffff00;
+$headerHeight: 1.2em;
+$navbarHeight: 1.2em;
+$footerHeight: 1.2em;
+
+@mixin askew($deg) {
+	-ms-transform: rotate($deg); /* IE 9 */
+    -webkit-transform: rotate($deg); /* Chrome, Safari, Opera */
+    transform: rotate($deg);
+}
+
+%showbox {
+	border: 1px dotted $primaryColour;
+}

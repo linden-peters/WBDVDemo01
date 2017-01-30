@@ -1,0 +1,8 @@
+/* Imported _footer.scss */
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: $footerHeight;
+	@extend %showbox;
+}

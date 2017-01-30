@@ -1,0 +1,7 @@
+/* Imported _header.scss */
+header {
+	position: fixed;
+	top: 0;
+	height: $headerHeight;
+	@extend %showbox;
+}

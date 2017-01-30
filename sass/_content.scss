@@ -1,0 +1,32 @@
+/* Imported _content.scss */
+p {
+	color: $primaryDark;
+}
+
+img {
+	@include askew(90deg);
+}
+
+figure {
+	/*
+	position: absolute;
+	right: 0;
+	*/
+	img {
+		@include askew(180deg);
+	}
+}
+
+figcaption {
+	font-style: italic;
+}
+
+ul {
+	list-style: lower-greek;
+	li:hover { color: $accentColour; }
+}
+
+a {
+	&:visited { font-style: italic; }
+	&:active { font-weight: bold; }
+}
