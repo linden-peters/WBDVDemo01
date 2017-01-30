@@ -12,7 +12,6 @@ nav {
 	@extend %showbox;
 }
 main {
-	@extend img;
 	position: absolute;
 	overflow-y: auto;
 	top: $headerHeight + $navbarHeight;
